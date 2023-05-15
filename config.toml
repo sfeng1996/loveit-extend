@@ -7,25 +7,25 @@ defaultContentLanguage = "zh-cn"
 theme = "LoveIt"
 # themes directory
 # 主题目录
-# themesDir = "../.."
+# themesDir = "./themes"
 
 # website title
 # 网站标题
-title = "LoveIt"
+title = "SFeng"
 
 # whether to use robots.txt
 # 是否使用 robots.txt
 enableRobotsTXT = true
 # whether to use git commit log
 # 是否使用 git 信息
-enableGitInfo = true
+enableGitInfo = false
 # whether to use emoji code
 # 是否使用 emoji 代码
 enableEmoji = true
 
 [languages]
   [languages.en]
-    weight = 1
+    weight = 2
     # language code
     languageCode = "en"
     # language name
@@ -316,7 +316,7 @@ enableEmoji = true
           prefix = "https://mastodon.technology/"
 
   [languages.zh-cn]
-    weight = 2
+    weight = 1
     # 网站语言, 仅在这里 CN 大写
     languageCode = "zh-CN"
     # 语言名称
@@ -709,7 +709,7 @@ enableEmoji = true
     twemoji = false
     # whether to enable lightgallery
     # 是否使用 lightgallery
-    lightgallery = false
+    lightgallery = true
     # whether to enable the ruby extended syntax
     # 是否使用 ruby 扩展语法
     ruby = true
